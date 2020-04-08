@@ -1,0 +1,31 @@
+
+<div class="row">
+    <div class="left col-lg-5">
+        <h4>Welcome back, Lord {{user}}</h4>
+        <p>Oh yes, tell me more</p>
+        <form id="add" class="row">
+            <div class="col">
+                <textarea type="text" name="note"></textarea>
+            </div>
+            <div class="col">
+                <input type="submit" value="Add">
+            </div>
+        </form>
+    </div>
+
+    <div class="right col-lg-7">
+        <h4>Notes</h4>
+        <p>Oh Nevermind...</p>
+        <div id="notes">
+            {{#each notes}}
+            <div class="note">
+                <div class="input"><textarea data-id="{{ @index }}">{{ this }}</textarea>
+                 <button class="remove btn btn-xs" data-id="{{ @index }}"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                </div>
+
+               
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

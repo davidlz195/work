@@ -1,0 +1,70 @@
+/* nav bar */
+.logo {
+    padding-left: 20%;
+    padding-top: 4%;  
+}
+
+.logo h1 {
+    color: black; 
+    font-size: 60px; 
+    font-family: 'Audiowide', cursive;
+}
+
+.logo p {
+    font-size: 20px; 
+    padding-left: 5%; 
+    font-family: 'Audiowide', cursive;
+    
+}
+
+.logo img {
+    width: 80px;  
+}
+
+.welcome {
+    padding: 0; 
+    height: 30vh; 
+    background-size: cover;
+    background-position: center; 
+    background-image: url('/images/2.jpg');
+}
+
+/* intro */
+
+
+.left {
+    background-color: white; 
+    height: 70vh; 
+}
+
+.left h4 {
+    font-family: 'Jura', cursive;
+    padding-top: .5%;
+    padding-left: 2%; 
+    font-size: 30px;  
+}
+
+.left p {
+    font-family: 'Jura', cursive;
+    padding-left: 2%; 
+    font-size: 17px;  
+}
+
+#add {
+    padding-left: 5%; 
+}
+
+.right {
+    background-image: url(/images/5.jpg);
+    background-size: cover; 
+    height: 70vh; 
+}
+
+.right h4 {
+    font-family: 'Jura', cursive;
+    padding-top: .5%;
+    padding-left: 2%; 
+    font-size: 30px;  
+}
+
+/* Forms */
