@@ -1,3 +1,9 @@
 [submodule "FoodDeliveryApp"]
 	path = FoodDeliveryApp
 	url = https://github.com/DerekLeungHoWang/food_delivery.git
+[submodule "Monitr"]
+	path = Monitr
+	url = https://github.com/FoongL/Monitr.git
+[submodule "CanvasApp"]
+	path = CanvasApp
+	url = https://github.com/FoongL/teamRainDrops.git
